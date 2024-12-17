@@ -20,11 +20,11 @@ management.
 Python, GEMINI Pro models, LangChain, FAISS, SQLite, Streamlit.
 
 **Image Q&A mode**
-![Screenshot 2024-12-17 151304](https://github.com/user-attachments/assets/5a91e56f-aae7-43d5-b18a-13fde0e39ac4)
-![Screenshot 2024-12-17 151318](https://github.com/user-attachments/assets/5e0c8e04-7a64-4a9d-8c95-82c276b202f2)
+![Screenshot 2024-12-17 151304](https://github.com/user-attachments/assets/598a0bbd-1393-4df9-8ac9-9fd004e96cc0)
+![Screenshot 2024-12-17 151318](https://github.com/user-attachments/assets/f22452c5-2c9a-43c5-8330-e13ebb0b4e6c)
 
 **PDF reading and Q&A mode**
-![Screenshot 2024-12-17 151113](https://github.com/user-attachments/assets/e4ce24fb-a637-43f4-b000-175fcf7f85e5)
+![Screenshot 2024-12-17 151113](https://github.com/user-attachments/assets/1a67256b-d5c5-461b-9fcc-b39d4c5929ae)
 
 **Conversational mode**
-![Screenshot 2024-12-17 151444](https://github.com/user-attachments/assets/4f7d49df-0df7-41c9-a032-573d5ea4e69d)
+![Screenshot 2024-12-17 151444](https://github.com/user-attachments/assets/04fb9bd0-6992-47c3-9471-9a2d43834dd1)
