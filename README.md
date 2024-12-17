@@ -19,12 +19,20 @@ management.
 #### Technologies: 
 Python, GEMINI Pro models, LangChain, FAISS, SQLite, Streamlit.
 
+
 **Image Q&A mode**
+
 ![Screenshot 2024-12-17 151304](https://github.com/user-attachments/assets/598a0bbd-1393-4df9-8ac9-9fd004e96cc0)
 ![Screenshot 2024-12-17 151318](https://github.com/user-attachments/assets/f22452c5-2c9a-43c5-8330-e13ebb0b4e6c)
 
+
+
 **PDF reading and Q&A mode**
+
 ![Screenshot 2024-12-17 151113](https://github.com/user-attachments/assets/1a67256b-d5c5-461b-9fcc-b39d4c5929ae)
 
+
+
 **Conversational mode**
+
 ![Screenshot 2024-12-17 151444](https://github.com/user-attachments/assets/04fb9bd0-6992-47c3-9471-9a2d43834dd1)
