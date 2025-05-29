@@ -139,7 +139,7 @@ st.markdown("""
 # Sidebar button styles to make them full width and centered
 chat_mode_button = st.sidebar.button("Chat Mode")
 image_qa_mode_button = st.sidebar.button("Image QA Mode")
-pdf_qa_mode_button = st.sidebar.button("PDF QA Mode")
+# pdf_qa_mode_button = st.sidebar.button("PDF QA Mode")
 
 # Update the mode based on button click and reset the history when the mode changes
 if chat_mode_button:
@@ -150,10 +150,10 @@ elif image_qa_mode_button:
     if st.session_state.mode != "Image QA Mode":
         st.session_state.mode = "Image QA Mode"
         st.session_state.current_history = []  # Clear history when mode changes
-elif pdf_qa_mode_button:
-    if st.session_state.mode != "PDF QA Mode":
-        st.session_state.mode = "PDF QA Mode"
-        st.session_state.current_history = []  # Clear history when mode changes
+# elif pdf_qa_mode_button:
+#     if st.session_state.mode != "PDF QA Mode":
+#         st.session_state.mode = "PDF QA Mode"
+#         st.session_state.current_history = []  # Clear history when mode changes
 
 # File upload options in the sidebar
 uploaded_file = None
@@ -209,10 +209,10 @@ with st.form(key="input_form", clear_on_submit=True):
             response = get_image_response(input_text, image)
             st.session_state.current_history.insert(0, f"Question: {input_text}")
             st.session_state.current_history.insert(1, f"Answer: {response}")
-        elif st.session_state.mode == "PDF QA Mode":
-            response = user_input(input_text)
-            st.session_state.current_history.insert(0, f"Question: {input_text}")
-            st.session_state.current_history.insert(1, f"Answer: {response['output_text']}")
+        # elif st.session_state.mode == "PDF QA Mode":
+        #     response = user_input(input_text)
+        #     st.session_state.current_history.insert(0, f"Question: {input_text}")
+        #     st.session_state.current_history.insert(1, f"Answer: {response['output_text']}")
         else:
             response = "Please upload a PDF file first!"
 
