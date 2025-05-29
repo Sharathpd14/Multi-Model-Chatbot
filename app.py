@@ -17,8 +17,8 @@ from io import BytesIO
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Initialize the generative models
-model = genai.GenerativeModel("gemini-2.0-flash-thinking-exp-01-21")
-image_model = genai.GenerativeModel("gemini-1.5-flash")
+model = genai.GenerativeModel("gemini-2.5-flash-preview-05-20")
+image_model = genai.GenerativeModel("gemini-2.5-flash-preview-05-20")
 
 # Function to get response from the model with error handling
 def get_response(question):
